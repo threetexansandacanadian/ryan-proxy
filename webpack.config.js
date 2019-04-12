@@ -83,7 +83,8 @@ module.exports = {
 
 	plugins: [
 		new HtmlWebpackPlugin({
-			title: `Yee'Haw'Aye`
+			title: `Yee'Haw'Aye`,
+			template: './src/index.html'
 		})
 	],
 
